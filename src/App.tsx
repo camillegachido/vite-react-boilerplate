@@ -20,6 +20,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        {count > 0 && <p>Count is bigger than 0</p>}
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
